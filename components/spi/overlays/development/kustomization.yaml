@@ -8,11 +8,11 @@ namespace: spi-system
 
 images:
   - name:  quay.io/redhat-appstudio/service-provider-integration-operator
-    newName: quay.io/redhat-appstudio/service-provider-integration-operator
-    newTag: 5194cbefe5e5802e51931e105f15f62472a88ee9
+    newName: registry.build04.ci.openshift.org/ci-op-slsv04w1/pipeline
+    newTag: redhat-appstudio-spi-image
   - name: quay.io/redhat-appstudio/service-provider-integration-oauth
-    newName: quay.io/redhat-appstudio/service-provider-integration-oauth
-    newTag: 5194cbefe5e5802e51931e105f15f62472a88ee9
+    newName: registry.build04.ci.openshift.org/ci-op-slsv04w1/pipeline
+    newTag: redhat-appstudio-spi-oauth-image
 
 patches:
   - target:
